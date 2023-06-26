@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VolleyBallWebLaba1
+build_property.RootNamespace = VolleyBallWebLaba1
+build_property.ProjectDir = /Users/katerinakhalvashi/Desktop/Laba1/1/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/katerinakhalvashi/Desktop/Laba1/1
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Championships/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhbXBpb25zaGlwcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Championships/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhbXBpb25zaGlwcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Championships/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhbXBpb25zaGlwcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Championships/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhbXBpb25zaGlwcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Championships/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhbXBpb25zaGlwcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Clubs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Clubs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Clubs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Clubs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Clubs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Matches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWF0Y2hlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Matches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWF0Y2hlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Matches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWF0Y2hlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Matches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWF0Y2hlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Matches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWF0Y2hlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Players/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Players/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Players/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Players/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Players/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Players/IndexPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxheWVycy9JbmRleFBsYXllcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/ScoredGoals/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2NvcmVkR29hbHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/ScoredGoals/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2NvcmVkR29hbHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/ScoredGoals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2NvcmVkR29hbHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/ScoredGoals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2NvcmVkR29hbHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/ScoredGoals/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2NvcmVkR29hbHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Stadiums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Stadiums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Stadiums/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Stadiums/DetailsStadium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bXMvRGV0YWlsc1N0YWRpdW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Stadiums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Stadiums/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/katerinakhalvashi/Desktop/Laba1/1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rrbfgvix5b

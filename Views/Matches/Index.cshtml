@@ -1,0 +1,98 @@
+﻿@model IEnumerable<FootBallWebLaba1.Models.Match>
+
+@{
+    ViewData["Title"] = "Матч за чемпіонатом";
+}
+
+<div>
+    <h3>Оберіть файл для завантаження</h3>
+    @using(Html.BeginForm("ImportMatchesFromExcel", "Matches", FormMethod.Post, new {enctype = "multipart/form-data", id = "frm-exel"}))
+    {
+        <div>
+            Завантажити Exel-файл:
+            <input type="file" name="fileExel" id="fileExel"/>
+            <div>
+                <input type="submit" value="Завантажити"/>
+            </div>
+        </div>
+    }
+</div>
+
+<div>
+    <h3>Завантажити інформацію про матчі</h3>
+    <a asp-action="ExportMatchesToExcel" class="btn btn-primary mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px">Завантажити</a>
+</div>
+
+<h1>Матч чемпіонату @ViewBag.ChampionshipName</h1>
+
+
+<p>
+       @*@Html.ActionLink("Додати новий матч","Create", new {championshipId = ViewBag.ChampionshipId})*@
+    <a href="@Url.Action("Create", new {championshipId = ViewBag.ChampionshipId})"> <input type="button" value="Додати новий матч" asp-action="Details" class="btn btn-success mt-1 mb-1" style="font-size:12px; padding:5px 7px; border-radius: 10px" /></a>
+</p>
+       
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MatchDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MatchDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Championship)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GuestClub)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HostClub)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stadium)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatchDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatchDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Championship.ChampionshipName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestClub.ClubName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HostClub.ClubName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stadium.StadiumLocation)
+            </td>
+            <td>
+                    <div class="d-inline-block">
+                        <a asp-action="Details" class="btn btn-primary mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px" asp-route-id="@item.MatchId">Статистика матчу</a>
+                        <a asp-controller="Stadiums" asp-action="DetailsStadium" class="btn btn-primary mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px" asp-route-id="@item.StadiumId">Стадіон</a>
+                    </div>
+                    <div class="d-inline-block">
+                        <a asp-controller="Clubs" asp-action="Details" class="btn btn-primary mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px" asp-route-id="@item.HostClubId">Команда хазяїв</a>
+                        <a asp-controller="Clubs" asp-action="Details" class="btn btn-primary mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px" asp-route-id="@item.GuestClubId">Команда гостей</a>
+                    </div>
+                    <a asp-action="Edit" class="btn btn-info mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px" asp-route-id="@item.MatchId">Редагувати</a> 
+                    <a asp-action="Delete" class="btn btn-danger mt-1 mb-1 d-inline-block" style="font-size:12px; padding:5px 7px; border-radius: 10px" asp-route-id="@item.MatchId">Видалити</a>
+                    
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
